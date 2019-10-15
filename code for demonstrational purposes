@@ -1,0 +1,16 @@
+import time
+import random
+
+def password_lock(): 
+   wait_time = random.randint(0,5)
+   max_attempts = 1
+   while input'password please:' !='password' and max_attempts <5:  # while the password does not match password and max attempts are less than 5 this loop executes
+       time.sleep(wait_time)   # sleeps for a random amount of seconds
+       print('that is incorrect try again')
+       max_attempts +=1  # adds an attempt untill it reaches 5
+   if max_attempts == 5:   # if the user uses up all of his attempts then this will lock him out
+       print('ok you used up att of your attempts')
+   else:
+       print('correct')       # prints correct if the user types in the password correctly
+       
+print(password_lock)
