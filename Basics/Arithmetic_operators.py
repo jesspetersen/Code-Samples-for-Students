@@ -1,5 +1,5 @@
 # The basic idea of this algorithm is to help the understanding of the Python
-# language arithmetic and logic operators.
+# language arithmetic operators.
 
 # Python can be used as an advanced mathematical calculator.
 # The 4 mathematical functions (the sum, subtraction, multiplication and division) are
@@ -34,6 +34,6 @@ print ("Subtraction %s and %s is: %s" %(variable_1,variable_2,result))
 result = int(variable_1) * int(variable_2)
 print ("Subtraction %s and %s is: %s" %(variable_1,variable_2,result))
 
-#Division
+# Division
 result = int(variable_1) / int(variable_2)
 print ("Subtraction %s and %s is: %s" %(variable_1,variable_2,int(result)))
