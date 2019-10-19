@@ -1,0 +1,70 @@
+Pandas : Pandas is yet another Python library which is again not a part of the Standard Library and therefore requires installation.
+
+Pandas is the most widely used tool for data munging. It contains high-level data structures and manipulation tools designed to make data analysis fast and easy.
+
+pip install pandas -> it is the command to install pandas onto system, when using linux.
+
+Pandas provides a new datastructure called as 'Data Frames' which is multi-dimensional and can be imagined to be something similar to that of the tables in databases or a sheet in the Excel / Spreadsheets and are Highly Optimised.
+
+DataFrame and Series : A Data frame is a two-dimensional data structure, i.e., data is aligned in a tabular fashion in rows and columns. Pandas DataFrame consists of three principal components, the data, rows, and columns.
+
+One column of a DataFrame = Series
+
+=> Collection of Data of one Aspect = Series
+&
+=> Collection of Series of Multiple Aspects = DataFrame
+
+
+Boolean Masks : Boolean Masks are sequences of True/False
+
+
+
+
+Things you can do with pandas :
+-> Object Creation
+   -> Creating a Series
+   -> Creating a DataFrame
+
+-> Viewing Data
+   -> Numpy Representation of underlying data
+   -> Quick Statistic summary of data
+
+-> Selection
+   -> Getting through index
+   -> Selection by label
+   -> Selection by position
+   -> Boolean indexing
+   -> Setting a new column/row
+
+-> Missing Data
+
+-> Operations
+   -> Stats
+   -> Apply
+   -> Histogramming
+   -> String Methods
+
+-> Merge
+   -> Concat
+   -> Join
+   -> Append
+
+-> Grouping
+
+-> Reshaping
+   -> Stack
+   -> Pivot tables
+
+-> Time Series
+
+-> Categoricals
+
+-> Plotting
+
+-> Getting data in/out
+   -> CSV
+   -> HDF5
+   -> Excell
+
+-> Gotchas
+
