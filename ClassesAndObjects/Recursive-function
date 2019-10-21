@@ -1,0 +1,13 @@
+# An example of a recursive function is
+# to find factorial of a number
+
+def r_factorial(x):
+    """This  is a recursive function to
+     find the factorial of an integer"""
+    if x == 1:
+        return (x)
+    else:
+        return (x * r_factorial(x-1))
+
+num = int(input("Enter a number to calculate factorial :"))
+print("The factorial of the number is :", r_factorial(num))
