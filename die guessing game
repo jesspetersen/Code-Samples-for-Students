@@ -1,0 +1,19 @@
+def dice_roll():      # defines a function called diec roll
+    import time
+    import random
+
+    wait_time = random.randint(0, 5)       #lines 5-6 assigns 2 variables to pick random numbers
+    dice_number = random.randint(1, 10)
+    num_pic = input('pick a number from 1 to 10.Try to guess the correct number to win:')   # asks for users input
+    num_pic = int(num_pic)   # converts the users input into a integer
+    print('computing')
+    time.sleep(wait_time)   # concatinates the random number picked from line 5 to make the computer sleep for a random amount of seconds
+    print('dice number is',dice_number)
+    while num_pic != dice_number:   # while the users input doesnt match the computers guessed number
+        print('try again')
+        dice_roll()  #repeats function
+    else:
+        print('congrats')  # terminates
+
+print(dice_roll())
+
